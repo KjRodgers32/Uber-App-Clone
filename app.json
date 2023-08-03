@@ -1,30 +1,40 @@
 {
-  "expo": {
-    "name": "uber-clone",
-    "slug": "uber-clone",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
-  }
+	"expo": {
+		"name": "uber-clone",
+		"slug": "uber-clone",
+		"description": "This is just a test app while I am learning React Native",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/Uber-logo-PNG1.png",
+		"userInterfaceStyle": "light",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/adaptive-icon.png",
+				"backgroundColor": "#ffffff"
+			}
+		},
+		"web": {
+			"favicon": "./assets/favicon.png"
+		},
+		"extra": {
+			"eas": {
+				"projectId": "fa1e711a-a7bb-4ce2-81fd-b790934519d5"
+			}
+		},
+		"runtimeVersion": {
+			"policy": "nativeVersion"
+		},
+		"updates": {
+			"url": "https://u.expo.dev/fa1e711a-a7bb-4ce2-81fd-b790934519d5"
+		}
+	}
 }
